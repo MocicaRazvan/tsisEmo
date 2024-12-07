@@ -1,0 +1,10 @@
+BioBERT=no
+BioMedRoBERTa=yes
+BlueBERT=no
+ClinicalBERT=yes
+CODER=yes
+SciBERT=no
+ClinicalLongFormer=no
+MajorityVoting=yes
+File=none
+PlainText=['bashar is happy, Jesus is friendly', 'ahmad is sad, and fear']

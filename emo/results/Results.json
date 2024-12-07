@@ -1,0 +1,166 @@
+{
+    "text_0": {
+        "BioBERT": {
+            "anger": 0.002,
+            "fear": 0.0015,
+            "sadness": 0.0021,
+            "calmness": 0.9837,
+            "disgust": 0.0011,
+            "pleasantness": 0.0026,
+            "eagerness": 0.041,
+            "joy": 0.995
+        },
+        "BioMedRoBERTa": {
+            "anger": 0.0014,
+            "fear": 0.0024,
+            "sadness": 0.0017,
+            "calmness": 0.9931,
+            "disgust": 0.0015,
+            "pleasantness": 0.0043,
+            "eagerness": 0.0431,
+            "joy": 0.9959
+        },
+        "BlueBERT": {
+            "anger": 0.0074,
+            "fear": 0.0042,
+            "sadness": 0.0046,
+            "calmness": 0.9877,
+            "disgust": 0.0051,
+            "pleasantness": 0.0066,
+            "eagerness": 0.1104,
+            "joy": 0.9907
+        },
+        "ClinicalBERT": {
+            "anger": 0.0014,
+            "fear": 0.0031,
+            "sadness": 0.0024,
+            "calmness": 0.9942,
+            "disgust": 0.0026,
+            "pleasantness": 0.0044,
+            "eagerness": 0.0257,
+            "joy": 0.9962
+        },
+        "CODER": {
+            "anger": 0.0018,
+            "fear": 0.0035,
+            "sadness": 0.003,
+            "calmness": 0.9791,
+            "disgust": 0.0025,
+            "pleasantness": 0.0038,
+            "eagerness": 0.011,
+            "joy": 0.9936
+        },
+        "SciBERT": {
+            "anger": 0.0036,
+            "fear": 0.0045,
+            "sadness": 0.004,
+            "calmness": 0.9857,
+            "disgust": 0.0027,
+            "pleasantness": 0.0049,
+            "eagerness": 0.0429,
+            "joy": 0.9923
+        },
+        "ClinicalLongFormer": {
+            "anger": 0.0017,
+            "fear": 0.0017,
+            "sadness": 0.0017,
+            "calmness": 0.988,
+            "disgust": 0.0019,
+            "pleasantness": 0.0037,
+            "eagerness": 0.0506,
+            "joy": 0.9963
+        },
+        "MajorityVoting": {
+            "anger": 0.0028,
+            "fear": 0.003,
+            "sadness": 0.0028,
+            "calmness": 0.9874,
+            "disgust": 0.0025,
+            "pleasantness": 0.0043,
+            "eagerness": 0.0464,
+            "joy": 0.9943
+        }
+    },
+    "text_1": {
+        "BioBERT": {
+            "anger": 0.6599,
+            "fear": 0.3505,
+            "sadness": 0.3434,
+            "calmness": 0.0708,
+            "disgust": 0.0257,
+            "pleasantness": 0.0076,
+            "eagerness": 0.1344,
+            "joy": 0.1548
+        },
+        "BioMedRoBERTa": {
+            "anger": 0.0021,
+            "fear": 0.0645,
+            "sadness": 0.4736,
+            "calmness": 0.0345,
+            "disgust": 0.0401,
+            "pleasantness": 0.0135,
+            "eagerness": 0.0197,
+            "joy": 0.0221
+        },
+        "BlueBERT": {
+            "anger": 0.0507,
+            "fear": 0.104,
+            "sadness": 0.2626,
+            "calmness": 0.1295,
+            "disgust": 0.0384,
+            "pleasantness": 0.023,
+            "eagerness": 0.0537,
+            "joy": 0.3965
+        },
+        "ClinicalBERT": {
+            "anger": 0.0031,
+            "fear": 0.8969,
+            "sadness": 0.9961,
+            "calmness": 0.0047,
+            "disgust": 0.1957,
+            "pleasantness": 0.007,
+            "eagerness": 0.001,
+            "joy": 0.0042
+        },
+        "CODER": {
+            "anger": 0.0359,
+            "fear": 0.1769,
+            "sadness": 0.2875,
+            "calmness": 0.2425,
+            "disgust": 0.0347,
+            "pleasantness": 0.0361,
+            "eagerness": 0.0713,
+            "joy": 0.2976
+        },
+        "SciBERT": {
+            "anger": 0.0184,
+            "fear": 0.1986,
+            "sadness": 0.7739,
+            "calmness": 0.3008,
+            "disgust": 0.1997,
+            "pleasantness": 0.0413,
+            "eagerness": 0.0256,
+            "joy": 0.053
+        },
+        "ClinicalLongFormer": {
+            "anger": 0.0144,
+            "fear": 0.4294,
+            "sadness": 0.7645,
+            "calmness": 0.1534,
+            "disgust": 0.0586,
+            "pleasantness": 0.1379,
+            "eagerness": 0.1189,
+            "joy": 0.1692
+        },
+        "MajorityVoting": {
+            "anger": 0.1121,
+            "fear": 0.3173,
+            "sadness": 0.5574,
+            "calmness": 0.1337,
+            "disgust": 0.0847,
+            "pleasantness": 0.0381,
+            "eagerness": 0.0607,
+            "joy": 0.1568
+        }
+    }
+}

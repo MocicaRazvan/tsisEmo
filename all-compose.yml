@@ -1,0 +1,51 @@
+name: aishit
+
+services:
+  #  modelul tf si ollama
+  tamp:
+    image: razvanmocica/tamp-paper
+    container_name: tamp-all
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - OLLAMA_MODEL=gemma2
+    ports:
+      - 5000:5000
+  # modelele din paper
+  emo:
+    image: razvanmocica/emo-paper
+    container_name: emo-all
+    ports:
+      - 5001:5000
+
+  ollama:
+    image: ollama/ollama:0.4.2
+    container_name: ollama-tamp-all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - OLLAMA_KEEP_ALIVE=-1m
+      - OLLAMA_DEBUG=true
+    volumes:
+      - ollama_fs:/root/.ollama
+    # ports:
+      # - "11434:11434"
+    runtime: nvidia
+
+  front:
+    image: mignete/ts-fe
+    container_name: ts-fe-all
+    environment:
+      - PORT=8090
+      - AI_API_URLS=http://localhost:5000/predict, http://localhost:5001/predict, http://localhost:5000/predictOllama
+      - AI_API_NAMES=tamp, emo, ollama
+    ports:
+      - 8090:8090
+      #  ollama pull tinyllama
+
+volumes:
+  ollama_fs:

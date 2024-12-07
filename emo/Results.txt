@@ -1,0 +1,80 @@
+
+Model: BioMedRoBERTa
+Prediction for TEXT 1:
+anger: 0.0014
+fear: 0.0024
+sadness: 0.0017
+calmness: 0.9931
+disgust: 0.0015
+pleasantness: 0.0043
+eagerness: 0.0431
+joy: 0.9959
+Prediction for TEXT 2:
+anger: 0.0021
+fear: 0.0645
+sadness: 0.4736
+calmness: 0.0345
+disgust: 0.0401
+pleasantness: 0.0135
+eagerness: 0.0197
+joy: 0.0221
+
+Model: ClinicalBERT
+Prediction for TEXT 1:
+anger: 0.0014
+fear: 0.0031
+sadness: 0.0024
+calmness: 0.9942
+disgust: 0.0026
+pleasantness: 0.0044
+eagerness: 0.0257
+joy: 0.9962
+Prediction for TEXT 2:
+anger: 0.0031
+fear: 0.8969
+sadness: 0.9961
+calmness: 0.0047
+disgust: 0.1957
+pleasantness: 0.0070
+eagerness: 0.0010
+joy: 0.0042
+
+Model: CODER
+Prediction for TEXT 1:
+anger: 0.0018
+fear: 0.0035
+sadness: 0.0030
+calmness: 0.9791
+disgust: 0.0025
+pleasantness: 0.0038
+eagerness: 0.0110
+joy: 0.9936
+Prediction for TEXT 2:
+anger: 0.0359
+fear: 0.1769
+sadness: 0.2875
+calmness: 0.2425
+disgust: 0.0347
+pleasantness: 0.0361
+eagerness: 0.0713
+joy: 0.2976
+
+Results for Majority Voting Ensemble:
+Majority Voting for TEXT 1:
+anger: 0.0015
+fear: 0.0030
+sadness: 0.0023
+calmness: 0.9888
+disgust: 0.0022
+pleasantness: 0.0042
+eagerness: 0.0266
+joy: 0.9952
+Majority Voting for TEXT 2:
+anger: 0.0137
+fear: 0.3795
+sadness: 0.5857
+calmness: 0.0939
+disgust: 0.0901
+pleasantness: 0.0189
+eagerness: 0.0307
+joy: 0.1080
